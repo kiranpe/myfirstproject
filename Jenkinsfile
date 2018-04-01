@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     parameters{
-            string(name: 'tomcat_test', defaultValue: 'yourEC2Ip', description: 'Staging Server')
+            string(name: 'tomcat_test', defaultValue: 'yourEC2IP', description: 'Staging Server')
             string(name: 'tomcat_prod', defaultValue: 'yourEC2IP', description: 'Production Server')
         }
 
